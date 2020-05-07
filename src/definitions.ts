@@ -4,7 +4,7 @@ declare module "@capacitor/core" {
   }
 }
 
-export interface FacebookLoginResult {
+export interface AccessTokenResponse {
   applicationId: string;
   declinedPermissions: Array<string>;
   expires: string;
@@ -15,15 +15,15 @@ export interface FacebookLoginResult {
   isExpired: boolean;
 }
 
-export interface FacebookLoginResult {
-  accessToken: FacebookLoginResult;
+export interface FacebookLoginResponse {
+  accessToken: AccessTokenResponse;
   recentlyGrantedPermissions: Array<string>;
   recentlyDeniedPermissions: Array<string>;
 }
 
 export interface FacebookPluginPlugin {
   init(options: {appId: string}): Promise<any>;
-  login(options: {permissions: string}): Promise<FacebookLoginResult>;
-  loginWithReadPermissions(options: {permissions: string}): Promise<FacebookLoginResult>;
-  loginWithPublishPermissions(options: {permission: string}): Promise<FacebookLoginResult>;
+  login(options: {permissions: string}): Promise<FacebookLoginResponse>;
+  loginWithReadPermissions(options: {permissions: string}): Promise<FacebookLoginResponse>;
+  loginWithPublishPermissions(options: {permission: string}): Promise<FacebookLoginResponse>;
 }
