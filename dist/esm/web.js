@@ -15,9 +15,23 @@ export class FacebookPluginWeb extends WebPlugin {
             platforms: ['web']
         });
     }
-    echo(options) {
+    init(options) {
         return __awaiter(this, void 0, void 0, function* () {
-            console.log('ECHO', options);
+            return options;
+        });
+    }
+    login(options) {
+        return __awaiter(this, void 0, void 0, function* () {
+            return options;
+        });
+    }
+    loginWithReadPermissions(options) {
+        return __awaiter(this, void 0, void 0, function* () {
+            return options;
+        });
+    }
+    loginWithPublishPermissions(options) {
+        return __awaiter(this, void 0, void 0, function* () {
             return options;
         });
     }

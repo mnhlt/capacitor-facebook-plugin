@@ -8,9 +8,16 @@ export class FacebookPluginWeb extends WebPlugin implements FacebookPluginPlugin
       platforms: ['web']
     });
   }
-
-  async echo(options: { value: string }): Promise<{value: string}> {
-    console.log('ECHO', options);
+  async init(options: { appId: string; }): Promise<any> {
+    return options;
+  }
+  async login(options: {}): Promise<any> {
+    return options;
+  }
+  async loginWithReadPermissions(options: {}): Promise<any> {
+    return options;
+  }
+  async loginWithPublishPermissions(options: {}): Promise<any> {
     return options;
   }
 }
