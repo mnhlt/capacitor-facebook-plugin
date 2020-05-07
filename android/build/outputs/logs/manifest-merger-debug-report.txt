@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml:2:3-4:14
+INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml:2:3-4:14
+INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml:2:3-4:14
+INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml:2:3-4:14
+INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml:2:3-4:14
+INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml:2:3-4:14
+INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml:2:3-4:14
+	package
+		ADDED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml:3:7-63
+		INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+		INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+		ADDED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml:2:3-4:14
+		INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+		ADDED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml:2:3-4:14
+		INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml:2:13-71
+uses-sdk
+INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+		ADDED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+		INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+		ADDED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
+		INJECTED from /home/manh/workspace/etop.vn/test-facebook/node_modules/capacitor-facebook-plugin/android/src/main/AndroidManifest.xml
