@@ -26,4 +26,5 @@ export interface FacebookPluginPlugin {
   login(options: {permissions: string}): Promise<FacebookLoginResponse>;
   loginWithReadPermissions(options: {permissions: string}): Promise<FacebookLoginResponse>;
   loginWithPublishPermissions(options: {permission: string}): Promise<FacebookLoginResponse>;
+  logout(): Promise<any>
 }
