@@ -2,6 +2,7 @@
 
 ```bash
 $ npm i --save git+ssh://git@c.eyeteam.vn:10022/etop/capacitor-facebook-plugin.git
+$ npx cap sync
 ```
 
 ## Android configuration
