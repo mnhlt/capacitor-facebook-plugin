@@ -22,7 +22,7 @@ In file `android/app/src/main/java/**/**/MainActivity.java`, add the plugin to t
 ```ts
 import {Plugins} from "@capacitor/core";
 const {FacebookPlugin} = Plugins;
-let res = await FacebookPlugin.init({appId: "1581362285363031"})
+let res = await FacebookPlugin.init({appId: "<AppID>"})
 console.log(res); // {message: "OK"}
 ```
 
@@ -33,7 +33,7 @@ import {Plugins} from "@capacitor/core";
 import {FacebookLoginResult} from "capacitor-facebook-plugin"
 const {FacebookPlugin} = Plugins;
 
-const FACEBOOK_PERMISSIONS = ['email', 'user_birthday', 'user_photos', 'user_gender'];
+const FACEBOOK_PERMISSIONS = 'email,user_birthday,user_photos,user_gender';
 const result = await <FacebookLoginResult>FacebookLogin.login({ permissions: FACEBOOK_PERMISSIONS });
 
 if (result.accessToken) {
