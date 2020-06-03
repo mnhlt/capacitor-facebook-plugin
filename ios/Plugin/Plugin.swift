@@ -64,10 +64,10 @@ public class FacebookPlugin: CAPPlugin {
     private func accessTokenToJson(_ accessToken: AccessToken) -> [String: Any?] {
         return [
             "applicationId": accessToken.appID,
-            /*declinedPermissions: accessToken.declinedPermissions,*/
+            "declinedPermissions": accessToken.declinedPermissions.map{$0.name},
             "expires": dateToJS(accessToken.expirationDate),
             "lastRefresh": dateToJS(accessToken.refreshDate),
-            /*permissions: accessToken.grantedPermissions,*/
+            "permissions": accessToken.permissions.map{$0.name},
             "token": accessToken.tokenString,
             "userId": accessToken.userID
         ]
