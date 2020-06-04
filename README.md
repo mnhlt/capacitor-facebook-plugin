@@ -1,7 +1,7 @@
 ## Installation
 
 ```bash
-$ npm i --save git+ssh://git@c.eyeteam.vn:10022/etop/capacitor-facebook-plugin.git
+$ npm i --save git+https://github.com/laituanmanh32/capacitor-facebook-plugin.git
 $ npx cap sync
 ```
 
