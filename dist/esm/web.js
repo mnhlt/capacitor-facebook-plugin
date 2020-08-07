@@ -15,6 +15,9 @@ export class FacebookPluginWeb extends WebPlugin {
             platforms: ['web']
         });
     }
+    logout() {
+        throw new Error("Method not implemented for web.");
+    }
     init(options) {
         return __awaiter(this, void 0, void 0, function* () {
             return options;

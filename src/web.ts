@@ -8,6 +8,9 @@ export class FacebookPluginWeb extends WebPlugin implements FacebookPluginPlugin
       platforms: ['web']
     });
   }
+  logout(): Promise<any> {
+    throw new Error("Method not implemented for web.");
+  }
   async init(options: { appId: string; }): Promise<any> {
     return options;
   }

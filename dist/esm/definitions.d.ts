@@ -31,4 +31,5 @@ export interface FacebookPluginPlugin {
     loginWithPublishPermissions(options: {
         permission: string;
     }): Promise<FacebookLoginResponse>;
+    logout(): Promise<any>;
 }
